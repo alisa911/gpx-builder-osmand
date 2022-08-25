@@ -93,6 +93,7 @@ export default class BaseBuilder {
                 'creator': 'fabulator:gpx-builder',
                 'version': '1.1',
                 'xmlns': 'http://www.topografix.com/GPX/1/1',
+                'xmlns:osmand': 'https://osmand.net',
                 'xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance',
                 'xsi:schemaLocation': this.schemaLocation.join(' '),
                 ...this.data.attributes,
